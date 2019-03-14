@@ -1,5 +1,5 @@
 # Excrypt
-
+An Elixir encryption engine. 
 ## Usage
 1. Generate a shared base64 encoded secret to be used for encryption/decryption
 
