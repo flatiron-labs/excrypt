@@ -33,4 +33,11 @@ defmodule Excrypt.MixProject do
   defp description() do
     "An encryption/decryption engine."
   end
+
+  defp package do
+    %{
+      licenses: ["MIT License"],
+      links: %{"Github" => "https://github.com/flatiron-labs/excrypt"}
+    }
+  end
 end
