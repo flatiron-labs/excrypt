@@ -1,5 +1,5 @@
 # Excrypt
-An Elixir encryption engine. 
+An Elixir encry
 ## Usage
 1. Generate a shared base64 encoded secret to be used for encryption/decryption
 
@@ -18,7 +18,7 @@ encrypted_text = "EyYFA9EoPaZdj4kbzADoUA=="
 3. Decrypt the string with the shared secret
 
 ```elixir
-iex> Excrypt.encrypt(encrypted_text, secret)
+iex> Excrypt.decrypt(encrypted_text, secret)
 "Encrypt me!"
 ```
 
